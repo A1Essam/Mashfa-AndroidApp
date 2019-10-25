@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/masfalogo"
+        android:label="Mashfa"
+        android:roundIcon="@drawable/masfalogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".intro3"></activity>
+        <activity android:name=".intro2" />
+        <activity android:name=".intro" >
+
+        </activity>
+        <activity android:name=".splash" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".doctorprofile" />
+        <activity android:name=".paybythegroupwallet" />
+        <activity android:name=".sessions" />
+        <activity android:name=".wallet" />
+        <activity android:name=".paymentMethod" />
+        <activity android:name=".numberOFpayment" />
+        <activity android:name=".admin" />
+        <activity android:name=".forgetpassword" />
+        <activity android:name=".verfiypage" />
+        <activity android:name=".home" />
+        <activity android:name=".login">
+
+        </activity>
+        <activity android:name=".joinActivity" />
+    </application>
+
+</manifest>
